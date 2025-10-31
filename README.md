@@ -12,7 +12,7 @@ This repo stores all my **practice files**, experiments, and small programs for 
 
 ## 🛠️ Languages
 
-- 🐍 Python → `py-practice`
+- 🐍 Python → `practice-py`
 
 ---
 
