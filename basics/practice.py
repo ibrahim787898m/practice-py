@@ -1,14 +1,7 @@
-op = input("operator: ")
-x = int(input("x: "))
-y = int(input("y: "))
+text = "thanksgivingday"
+data = {}
 
-if op == '+':
-    print("answer: ", x + y)
-elif op == '-':
-    print("answer: ", x - y)
-elif op == '*':
-    print("answer: ", x * y)
-elif op == '/':
-    print("answer: ", x / y)
-else:
-    print("invalid operator")
+for index, char in enumerate(text, start=1):
+    data[char] = data.get(char, 0) + 1
+
+print(data)
